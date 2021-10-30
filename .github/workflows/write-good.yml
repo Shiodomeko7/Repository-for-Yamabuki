@@ -16,7 +16,7 @@ jobs:
     - name: write-good action step
       id: write-good
       uses: tomwhross/write-good-action@v1.5
-       with:
+      with:
          directory: "~/Repository-for-Yamabuki"
     # Use the output from the `write-good` step
     - name: Get the write-good output
