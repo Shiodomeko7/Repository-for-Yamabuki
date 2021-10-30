@@ -1,10 +1,7 @@
-on: 
-
- push:
-  
-  branches:
-    -main
-   
+on:
+  push:
+    branches:
+      - main
 
 name: 'Trigger: Push action'
 
@@ -14,8 +11,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - name: ShellCheck
-      uses: ludeeus/action-shellcheck@1.1.0
-      with:
-        scandir: '~/gitPractice/Repository-for-Yamabuki'
-
+    - name: Run ShellCheck
+      uses: ludeeus/action-shellcheck@master
