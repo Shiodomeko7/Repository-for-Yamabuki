@@ -5,7 +5,7 @@ on:
   pull_request:
     branches:
       - main
-  name : Write-Good
+name : "Write-Good"
 
 jobs:
   write_good_job:
