@@ -1,4 +1,12 @@
-on: [push]
+on: 
+
+ push:
+  
+  paths: 
+     - '~/gitPractice/Repository-for-Yamabuki/**.sh'
+  branches:
+    -main
+   
 
 name: 'Trigger: Push action'
 
