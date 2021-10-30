@@ -1,1 +1,1 @@
-I has ate rice this morning and it taste good
+So the cat was stolen
